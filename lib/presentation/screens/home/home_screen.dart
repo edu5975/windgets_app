@@ -49,7 +49,7 @@ class _CustomListTitle extends StatelessWidget {
       subtitle: Text(appMenuItem.subTitle),
       onTap: () {
         //Navigator.pushNamed(context, appMenuItem.link);
-        context.go(appMenuItem.link);
+        context.push(appMenuItem.link);
       },
     );
   }
