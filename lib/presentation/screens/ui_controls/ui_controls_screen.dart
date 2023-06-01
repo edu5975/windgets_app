@@ -100,14 +100,14 @@ class _UiControlsViewState extends State<_UiControlsView> {
           }),
         ),
         CheckboxListTile(
-          title: const Text('Almuerzo?'),
+          title: const Text('¿Almuerzo?'),
           value: wantsLunch,
           onChanged: (value) => setState(() {
             wantsLunch = !wantsLunch;
           }),
         ),
         CheckboxListTile(
-          title: const Text('Cena?'),
+          title: const Text('¿Cena?'),
           value: wantsDinner,
           onChanged: (value) => setState(() {
             wantsDinner = !wantsDinner;
